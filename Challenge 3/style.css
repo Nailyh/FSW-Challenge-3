@@ -1,0 +1,212 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.start{
+    background-image: url(Assets/main-bg.jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    height: 60px;
+    display: flex;
+    padding: 2% 4%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: rgb(138, 123, 123, .7);
+}
+.start nav h2 a{
+    color: #fff;
+    text-decoration: none;
+}
+.nav-links{
+    flex: :1;
+    text align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inhale-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    display: inline-block;
+}
+.nav-links ul li:hover::after{
+    color: red;
+}
+nav ul{
+    list list-style: none;
+    display: flex;
+}
+nav ul li{
+    width: 150px;
+    height: 30px;
+    line-height: 40px;
+}
+main{
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+main h2{
+    justify-content: center;
+    font-size: 50px;
+    width: 700px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    background-color: none;
+    color: #fff;
+}
+main p{
+    color: #fff;
+    padding: 30px;
+}
+main button {
+    font-size: 16px;
+    font-weight: bold;
+    color:black;
+    background-color: chocolate;
+    width: 250px;
+    height: 60px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.footer-bottom{
+    background: none;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.second{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    padding: 100px;
+    background-image: url(Assets/the-games-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.second .text-area h4{
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.second .text-area h1{
+    font-size: 50px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.slider{
+    width: 700px;
+    height: 300px;
+    border-radius: 10px;
+}
+.slides{
+    padding left: 30px;
+    margin-top: 90px;
+}
+.slides input{
+    display: none;
+}
+
+.navigation-manual{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn{
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 50px;
+}
+.manual-btn:hover{
+    background: white;
+}
+.third{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    padding: 100px;
+    background-image: url(Assets/features.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+.third .text-area h4{
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    color: #fff;
+    left: 400px;
+    margin-left: 600px;
+    margin-top: 1px;
+    justify-content: left;
+    align-content: left;
+    text-align: left;
+}
+.third .text-area h1{
+    font-size: 50px;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-left: 600px;
+}
+.fourth{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    padding: 100px;
+    background-image: url(Assets/requirements.png);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+.fifth{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    padding: 100px;
+    background-image: url(Assets/top-score-bg.png);
+    background-size:cover;
+    background-position: center;
+    object-fit:cover; 
+}
